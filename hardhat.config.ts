@@ -3,7 +3,7 @@ import "hardhat-gas-reporter";
 import "@nomiclabs/hardhat-etherscan";
 import "hardhat-deploy";
 import "dotenv/config";
-import "@nomiclabs/hardhat-ethers"; // requirs for ethers in hardhat
+import "@nomiclabs/hardhat-ethers"; // requirs for ethers in hardhat with scripts file when deploying
 import "@typechain/hardhat"; //requires to generate typechain-types folder
 
 const RINKEBY_RPC_URL = process.env.RINKEBY_RPC_URL;
